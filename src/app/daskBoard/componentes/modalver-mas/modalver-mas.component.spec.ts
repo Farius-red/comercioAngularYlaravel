@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PortafolioComponent } from './portafolio.component';
+import { ModalverMasComponent } from './modalver-mas.component';
 
-describe('PortafolioComponent', () => {
-  let component: PortafolioComponent;
-  let fixture: ComponentFixture<PortafolioComponent>;
+describe('ModalverMasComponent', () => {
+  let component: ModalverMasComponent;
+  let fixture: ComponentFixture<ModalverMasComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PortafolioComponent ]
+      declarations: [ ModalverMasComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PortafolioComponent);
+    fixture = TestBed.createComponent(ModalverMasComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -8,16 +8,19 @@ import { MaterialModule } from '../material/material.module';
 import { NavegacionComponent } from './componentes/navegacion/navegacion.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { CuerpoComponent } from './componentes/cuerpo/cuerpo.component';
-import { PortafolioComponent } from './componentes/portafolio/portafolio.component';
+import { PedidosComponent } from './componentes/pedidos/pedidos.component';
+
+import { ModalverMasComponent } from './componentes/modalver-mas/modalver-mas.component';
 
 
 @NgModule({
-  declarations: [IndexPortafolioComponent, NavegacionComponent, FooterComponent, CuerpoComponent, PortafolioComponent],
+  declarations: [IndexPortafolioComponent, NavegacionComponent, FooterComponent, CuerpoComponent, PedidosComponent, ModalverMasComponent],
   imports: [
     CommonModule,
     IndexPortafolioRoutingModule,
     MaterialModule,
   ],
-  exports: []
+  exports: [],
+  entryComponents: [ ModalverMasComponent ],
 })
 export class DaskBoardModule {}
