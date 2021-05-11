@@ -1,0 +1,42 @@
+.curva{
+    margin-top: 0%;
+    background-color: #3f51b5;
+    color: azure;
+    text-align: center;
+  
+}
+
+.curva h1{
+
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.curva p{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0 5rem 0 5rem;
+}
+
+.curva svg {
+    display: block;
+}
+.sobreMi{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+}
+.sobreMi h1{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+.sobreMi p {
+    font-size: 1rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      word-wrap: break-word;
+      margin: 10%;
+      color: #363636;
+      opacity: 0.7;
+}
