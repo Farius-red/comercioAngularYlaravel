@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DaskBoardModule } from './daskBoard/daskBoard.module';
+import { CoreModule } from './core/core.module';
 
 
 @NgModule({
@@ -16,9 +18,11 @@ import { DaskBoardModule } from './daskBoard/daskBoard.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-      DaskBoardModule
+    DaskBoardModule,
+    HttpClientModule,
+      CoreModule
   ],
-  providers: [],
+  providers: [CoreModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
